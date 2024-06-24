@@ -1,18 +1,17 @@
 {
   "name": "0x00-ES6_basic",
   "version": "1.0.0",
-  "description": "jest babel and eslint",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "dev": "babel-node 0-main.js"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "babel-jest": "^26.0.0",
-    "eslint": "^7.0.0",
-    "jest": "^26.0.0"
-  }
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/node": "^7.24.7",
+    "@babel/preset-env": "^7.24.7"
+  },
+  "author": "",
+  "license": "ISC"
 }
-
-
