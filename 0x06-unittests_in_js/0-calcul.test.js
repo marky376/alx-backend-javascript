@@ -28,7 +28,7 @@ describe('calculateNumber', () => {
     });
 
     it('rounding up a\'s floating point fractional numbers', () => {
-        assert.strictEqual(clculateNumber(2.6, 2.0), 5);
+        assert.strictEqual(calculateNumber(2.6, 2.0), 5);
     });
 
     it('rounding down a and b floating point fractional numbers with trailling 9\'s', () => {
